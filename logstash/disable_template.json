@@ -1,0 +1,10 @@
+{
+    "template": "www.ricoh.co.jp-*",
+    "mappings": {
+        "_default_": {
+            "properties" : {
+                "request" : { "type" : "string", "index" : "not_analyzed" }
+            }
+        }
+    }
+}

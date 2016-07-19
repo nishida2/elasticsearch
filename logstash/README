@@ -1,0 +1,4 @@
+Delete Index
+curl -XDELETE 'http://localhost:9200/*'
+curl -XDELETE -w'\n' "http://localhost:9200/www.ricoh.co.jp-2016.07.02"
+curl -XDELETE -w'\n' "http://localhost:9200/www.ricoh.co.jp-2016.07.03"
